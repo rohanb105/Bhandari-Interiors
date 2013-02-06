@@ -234,8 +234,39 @@ span{
 	color:#ff7800;
 	}
 	
-	
-	
+.wrap-left{
+	float:left;
+	/*border:1px solid #fff;*/
+	}
+.wrap-left-main{
+	width:1000px;
+	border:1px solid #fff;
+	}
+.adslot{
+	float:left;
+	width:49%;
+	height:316px;
+	/*border:1px solid #fff;*/
+	}
+.address-align-01{
+	float:left;
+	height:90px;
+	width: 110px;
+	/*border:1px solid #fff;*/
+	}
+.address-align-02{
+	float:left;
+	height:90px;
+	width:250px;
+	/*border:1px solid #fff;*/
+	}
+.address-align-03{
+	float:left;
+	height:25px;
+	width:474px;
+	/*border:1px solid #fff;*/
+	}	
+
 
 a{ color:#ff7800; text-decoration:underline}
 a:hover{text-decoration:none}
