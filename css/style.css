@@ -160,7 +160,7 @@ span{
 	height:332px;
 	width:672px;
 	float:left;
-	background:url(../images/header.gif) no-repeat;
+	/*background:url(../images/header.gif) no-repeat;*/
 	}
 #body-part{
 	height:auto;
@@ -266,7 +266,10 @@ span{
 	width:474px;
 	/*border:1px solid #fff;*/
 	}	
-
+.req {
+	color: #52c2ef;
+	font-size: 120%;
+}
 
 a{ color:#ff7800; text-decoration:underline}
 a:hover{text-decoration:none}
