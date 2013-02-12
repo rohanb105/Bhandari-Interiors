@@ -14,6 +14,11 @@
 			window.location.href ="mailto:"+sTo+"?subject="+subject+"&body="+sbody;
 		}
 </script>
+<script>
+function resetForm(){
+   document.getElementById("frmMain").reset();
+ } 
+</script>
 </head>
 <body>
 <div class="header-back">
@@ -57,10 +62,13 @@
 <div id="body-part">
 <div style="padding:20px 40px">
 	<h1><span>Contact</span> Us</h1>		
-             	  <div> <strong>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin sed  odio et ante adipiscing lobortis. Quisque eleifend, arcu a dictum  varius, risus neque venenatis arcu, a semper massa mi eget ipsum. </strong><br />
+           <div> 
+            <strong>
+            	 If you want any other information. Please feel free to fill the below form, we will be happy to contact you.
+            </strong>
             <br />
-            Lorem  ipsum dolor sit amet, consectetuer adipiscing elit. Proin sed odio et  ante adipiscing lobortis. Quisque eleifend, arcu a dictum varius, risus  neque venenatis arcu, a semper massa mi eget ipsum. </div>
+            <br />
+           </div>
           <div> <br />
             <h6>Contact Form:</h6>
             <p> Required fields are marked with an asterisk ( <abbr class="req" title="required">*</abbr> ).</p>
@@ -92,12 +100,17 @@
                 </tr>
                 <tr>
                   <td></td>
-                  <td><input type="submit" name="submit" class="button" onClick = "return validate();" value="Send Now" /></td>
+                  <td>
+                  	<input type="submit" name="submit" class="button" onClick = "return validate();" value="Send Now"/>
+                  	<input type="submit" name="submit" class="button" onClick = "resetForm();" value="Clear"/>
+                  </td>
                 </tr>
               </table>
             </form>
           </div>
-          <div class="adslot"></div>
+          <div class="adslot" align="center">
+          	<img src="images/photo-contact.jpg" class="adslot-image"/>
+          </div>
           
           <div> <br/>
             	<h6>Contact Information: </h6>
